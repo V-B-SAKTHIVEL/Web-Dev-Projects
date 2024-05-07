@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 50%;
+}
+
+h1{
+    border-bottom: 2px solid aqua;
+    padding-bottom: 20px;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+
+.card-details{
+    line-height: 0.8cm;
+    display: flex;
+    align-items: center;
+}
+
+.card-details p{
+    font-size: 16px;
+}
+
+.person{
+    width: 210px;
+    height: 210px;
+    margin-left: auto;
+    border: 5px solid aqua;
+    border-radius:50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
