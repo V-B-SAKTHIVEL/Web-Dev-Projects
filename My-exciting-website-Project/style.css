@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav{
+    background-color: #000;
+}
+
+nav ul{
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    flex: 1;
+    padding: .5em 1em;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.balloon1{
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.container{
+    width: 70%;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 2px;
+}
