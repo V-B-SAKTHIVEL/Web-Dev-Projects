@@ -65,7 +65,7 @@ nav ul li a:hover{
     color: #fff;
     padding: 16px 16px;
     text-decoration: none;
-    transition: background-color .2s, border-radius;
+    transition: background-color .2s;
 }
 
 .dropdown a:hover{
