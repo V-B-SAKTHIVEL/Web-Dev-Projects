@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="button">Click Here...</button>
+
+    <p id="clickcount"></p>
+</body>
+
+<script>
+    const a = document.querySelector("#button");
+    const b = document.querySelector("#clickcount");
+
+    let count = 1;
+
+    a.onclick = () => {
+        a.textContent = "Try again!";
+        b.textContent = `${count} time(s) clicked`;
+        count++;
+    }
+</script>
+</html>
