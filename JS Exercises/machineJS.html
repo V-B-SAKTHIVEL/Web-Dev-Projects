@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="control">Start Machine</button>
+
+    <p id="txtCnt">The machine is stopped</p>
+</body>
+
+<script>
+    const buttonControl = document.querySelector("#control");
+    const p = document.querySelector("#txtCnt");
+
+    buttonControl.addEventListener("click", updateBtn);
+
+    function updateBtn(){
+        if(buttonControl.textContent === "Start Machine"){
+            buttonControl.textContent = "Stop Machine";
+            p.textContent = "The Machine has stopped";
+        }else{
+            buttonControl.textContent = "Start Machine";
+            p.textContent = "The Machine has started";
+        }
+    }
+</script>
+</html>
